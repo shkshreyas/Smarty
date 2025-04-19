@@ -1,0 +1,185 @@
+{
+  "quizzes": {
+    "subjects": {
+      "math": {
+        "name": "Mathematics",
+        "description": "Learn about numbers, equations, geometry and more",
+        "imageUrl": "https://example.com/math.jpg",
+        "topics": {
+          "algebra": {
+            "name": "Algebra",
+            "description": "Work with variables and equations",
+            "quizItems": {
+              "quiz1": {
+                "title": "Basic Equations",
+                "description": "Practice solving basic equations",
+                "timeLimit": 10,
+                "passingPercentage": 70,
+                "questions": {
+                  "q1": {
+                    "text": "Solve for x: 2x + 3 = 7",
+                    "options": ["x = 2", "x = 3", "x = 4", "x = 5"],
+                    "correctOptionIndex": 0,
+                    "explanation": "Subtract 3 from both sides: 2x + 3 - 3 = 7 - 3, giving 2x = 4. Then divide both sides by 2: x = 2."
+                  },
+                  "q2": {
+                    "text": "Solve for y: 3y - 6 = 9",
+                    "options": ["y = 3", "y = 5", "y = 6", "y = 15"],
+                    "correctOptionIndex": 1,
+                    "explanation": "Add 6 to both sides: 3y - 6 + 6 = 9 + 6, giving 3y = 15. Then divide both sides by 3: y = 5."
+                  }
+                }
+              }
+            }
+          },
+          "geometry": {
+            "name": "Geometry",
+            "description": "Study shapes and spatial relationships",
+            "quizItems": {
+              "quiz1": {
+                "title": "Basic Shapes",
+                "description": "Learn about triangles, circles, and more",
+                "timeLimit": 10,
+                "passingPercentage": 70,
+                "questions": {
+                  "q1": {
+                    "text": "What is the formula for the area of a circle?",
+                    "options": ["πr²", "2πr", "πd", "r²π"],
+                    "correctOptionIndex": 0,
+                    "explanation": "The area of a circle is calculated using the formula A = πr², where r is the radius of the circle."
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "science": {
+        "name": "Science",
+        "description": "Explore the natural world through physics, chemistry, and biology",
+        "imageUrl": "https://example.com/science.jpg",
+        "topics": {
+          "physics": {
+            "name": "Physics",
+            "description": "Study matter, energy, and forces",
+            "quizItems": {
+              "quiz1": {
+                "title": "Newton's Laws",
+                "description": "Test your understanding of Newton's Laws of Motion",
+                "timeLimit": 15,
+                "passingPercentage": 70,
+                "questions": {
+                  "q1": {
+                    "text": "Which of Newton's laws states that an object at rest remains at rest unless acted upon by a force?",
+                    "options": ["First Law", "Second Law", "Third Law", "Fourth Law"],
+                    "correctOptionIndex": 0,
+                    "explanation": "Newton's First Law of Motion states that an object at rest stays at rest and an object in motion stays in motion with the same speed and in the same direction unless acted upon by an unbalanced force."
+                  }
+                }
+              }
+            }
+          },
+          "chemistry": {
+            "name": "Chemistry",
+            "description": "Study the composition and properties of matter",
+            "quizItems": {
+              "quiz1": {
+                "title": "Elements and Compounds",
+                "description": "Learn about elements, compounds, and mixtures",
+                "timeLimit": 12,
+                "passingPercentage": 75,
+                "questions": {
+                  "q1": {
+                    "text": "Which of the following is a pure substance?",
+                    "options": ["Salt water", "Distilled water", "Soil", "Air"],
+                    "correctOptionIndex": 1,
+                    "explanation": "Distilled water is a pure substance because it consists of only water molecules (H₂O). The other options are mixtures."
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "programming": {
+        "name": "Programming",
+        "description": "Learn how to code in various programming languages",
+        "imageUrl": "https://example.com/programming.jpg",
+        "topics": {
+          "java": {
+            "name": "Java",
+            "description": "Learn the Java programming language",
+            "quizItems": {
+              "quiz1": {
+                "title": "Java Basics",
+                "description": "Test your knowledge of Java fundamentals",
+                "timeLimit": 15,
+                "passingPercentage": 70,
+                "questions": {
+                  "q1": {
+                    "text": "Which of the following is the correct way to declare a main method in Java?",
+                    "options": [
+                      "public void main(String[] args)",
+                      "public static void main(String[] args)",
+                      "static void main(String args[])",
+                      "public static void main()"
+                    ],
+                    "correctOptionIndex": 1,
+                    "explanation": "The correct declaration is 'public static void main(String[] args)'. It must be public to be accessible, static to be called without creating an instance, and must accept a String array parameter."
+                  },
+                  "q2": {
+                    "text": "What is the output of System.out.println(5 + 3 + \"Hello\")?",
+                    "options": [
+                      "8Hello",
+                      "5 + 3 + Hello",
+                      "53Hello",
+                      "Error"
+                    ],
+                    "correctOptionIndex": 0,
+                    "explanation": "Java evaluates expressions from left to right. First, 5 + 3 is evaluated to 8, then 8 is concatenated with the string \"Hello\" to produce \"8Hello\"."
+                  }
+                }
+              }
+            }
+          },
+          "kotlin": {
+            "name": "Kotlin",
+            "description": "Master the Kotlin programming language for Android",
+            "quizItems": {
+              "quiz1": {
+                "title": "Kotlin Fundamentals",
+                "description": "Check your understanding of Kotlin basics",
+                "timeLimit": 12,
+                "passingPercentage": 75,
+                "questions": {
+                  "q1": {
+                    "text": "Which keyword is used to declare a variable that can be reassigned in Kotlin?",
+                    "options": [
+                      "val",
+                      "var", 
+                      "const",
+                      "let"
+                    ],
+                    "correctOptionIndex": 1,
+                    "explanation": "In Kotlin, 'var' is used to declare mutable variables that can be reassigned, while 'val' is used for read-only variables (similar to final in Java)."
+                  },
+                  "q2": {
+                    "text": "What is the correct way to check for nullability in Kotlin?",
+                    "options": [
+                      "if (object != null)",
+                      "if (object?.)",
+                      "object?.let { ... }",
+                      "All of the above"
+                    ],
+                    "correctOptionIndex": 3,
+                    "explanation": "Kotlin provides multiple ways to handle null safety: traditional null checks (if (object != null)), the safe call operator (object?.), and scope functions like let (object?.let { ... })."
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+} 

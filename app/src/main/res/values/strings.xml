@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smarty</string>
+    <string name="default_web_client_id">1006284132254-bsv00bnqujma32vd1i2dr8vqi3qbqnes.apps.googleusercontent.com</string>
+    
+    <!-- Auth Screens -->
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="sign_out">Sign Out</string>
+    
+    <!-- App Screens -->
+    <string name="subjects">Subjects</string>
+    <string name="modules">Modules</string>
+    <string name="quizzes">Quizzes</string>
+    <string name="questions">Questions</string>
+    <string name="add_subject">Add Subject</string>
+    <string name="no_subjects_found">No subjects found</string>
+    <string name="add_subject_prompt">Tap the + button to add your first subject</string>
+</resources> 
